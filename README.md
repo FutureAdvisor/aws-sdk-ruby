@@ -1,7 +1,11 @@
-# AWS SDK for Ruby - Version 1 [![Build Status](https://travis-ci.org/aws/aws-sdk-ruby.svg?branch=aws-sdk-v1)](https://travis-ci.org/aws/aws-sdk-ruby)
+# AWS SDK for Ruby - Version 1 (FA) [![Build Status](https://travis-ci.org/aws/aws-sdk-ruby.svg?branch=aws-sdk-v1)](https://travis-ci.org/aws/aws-sdk-ruby),
 
 This is version 1 of the AWS SDK for Ruby. **Version 2 can be found in the
-[master branch](https://github.com/aws/aws-sdk-ruby).**
+[master branch](https://github.com/aws/aws-sdk-ruby).** Additionally, this is to be treated as an internal copy and has relaxed `json` dependency requirements.
+
+## NOTE
+
+This repo is a fork, and thus public, so refrain from including any internal details in your PRs!
 
 ## Installation
 

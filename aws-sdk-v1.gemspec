@@ -12,7 +12,9 @@ application.
   s.homepage = 'http://aws.amazon.com/sdkforruby'
 
   s.add_dependency('nokogiri', '~> 1')
-  s.add_dependency('json', '~> 1.4')
+  # See https://github.com/aws/aws-sdk-ruby/issues/1372
+  # v1 is already EOL, so forking the v1 gem and relaxing the json dependency as suggested
+  s.add_dependency('json', '~> 2.0')
 
   s.files = [
     'ca-bundle.crt',
